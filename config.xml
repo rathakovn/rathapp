@@ -14,7 +14,9 @@ MUHELEN MURUGAN
 	
 	<!-- Define app icon MAIN ROOT Platform. -->
 
-<icon src="icon.png" />		
+<platform name="android">
+<icon src="icon.png" />	
+</platform>
 
     <!--
         Enable individual API permissions here.
