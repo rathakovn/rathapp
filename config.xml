@@ -12,10 +12,6 @@ email="muhelen@omtamil.com">
 MUHELEN MURUGAN
 </author>
 	
-	<!-- Define app icon MAIN ROOT Platform. -->
-
-<icon src="icon.png" />	
-
     <!--
         Enable individual API permissions here.
         The "device" permission is required for the 'deviceready' event.
@@ -59,6 +55,8 @@ MUHELEN MURUGAN
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
 
+	<!-- Define app icon MAIN ROOT Platform. -->
+	<icon src="icon.png" />	
     <!-- Define app icon for each platform. -->
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
